@@ -55,7 +55,7 @@ $activities = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <h1>Activity Logs</h1>
 
     <p>
-        <a href="<?= BASE_URL ?>/auth/signout.php">Sign Out</a>
+       <a href="../../auth/signout.php">Sign Out</a>
     </p>
 
 
