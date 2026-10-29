@@ -535,7 +535,7 @@ if ($section === 'borrow' && $action === 'return') {
                             </td>
 
                             <td>
-                                <?= htmlspecialchars($student['student_created_at']) ?>
+                                <?= htmlspecialchars($student['student_created_at_']) ?>
                             </td>
 
                             <td>
